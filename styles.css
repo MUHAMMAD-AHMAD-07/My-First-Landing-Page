@@ -1,0 +1,70 @@
+*{
+    font-family: 'Roboto';
+}
+
+/*Code Written For the Header Section Starts Here*/
+body{
+    display: flex;
+    flex-direction: column;
+    margin:  0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 60px;
+}
+.image img{
+    
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 36px;
+    
+}
+.containerOne{
+    background-color: #1f2937;
+    width: 100%;
+}
+.headerLinks{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.headerLinks ul{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+.headerLinks ul a, .content p{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.content button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: none;
+    height:30px;
+    width: 100px;
+}
+.content h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+/*Code Written For the Header Section Ends Here*/
+
+
