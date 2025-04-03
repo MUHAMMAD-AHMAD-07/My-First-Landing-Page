@@ -23,9 +23,9 @@ header{
 }
 .image img{
     
-        max-width: 100%;
-        height: auto;
-        margin-bottom: 36px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 36px;
     
 }
 .containerOne{
@@ -66,5 +66,29 @@ header{
 }
 
 /*Code Written For the Header Section Ends Here*/
+
+
+.containerTwo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+}
+.containerTwo h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+.my-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.my-images img {
+    width: 200px; 
+    height: 150px; 
+    border-radius: 10px; 
+}
 
 
