@@ -1,2 +1,2 @@
 # My-First-Landing-Page
-This is gonna be my first landing page that im gonna make from scratch : )
+This is my first landing page that i made from scratch : ). Ai wasn't used for writing code which you can confirm by taking a look at code ( It's spaghetti a liitle bit ) :) but dont forget its my FIRST attempt.
