@@ -67,12 +67,12 @@ header{
 
 /*Code Written For the Header Section Ends Here*/
 
-
+/*Code Written For the Second Container Starts Here*/
 .containerTwo{
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 400px;
+    height: 450px;
 }
 .containerTwo h1{
     font-size: 36px;
@@ -90,5 +90,81 @@ header{
     height: 150px; 
     border-radius: 10px; 
 }
+/*Code Written For the second container Ends Here*/
 
+/*Code Written For the Third Container Starts Here*/
 
+.containerThree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    background-color: #E5E7EB;
+    height: 400px;
+
+}
+.quote{
+    font-style: italic;
+    font-weight: 300;
+
+}
+.author{
+    display: flex;
+    justify-content: end;
+    color: #1f2937;
+    font-style: bold;
+    font-weight: 650;
+}
+
+/*Code Written For the Third Container ends Here*/
+
+/*Code Written For the four Container Starts Here*/
+
+.containerFour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
+    height: 250px;
+
+}
+.inside-containerFour{
+    display: flex;
+    background-color: #3882f6;
+    width: 60%;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.containerFourButton button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+}
+.containerFourButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerFourtext h3 {
+    margin-bottom: 10px; 
+}
+
+.containerFourtext p {
+    margin-top: 10px;
+}
+/*Code Written For the four Container Ends Here*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
